@@ -1,6 +1,8 @@
 # Text-to-Image-Generator
-A lightweight full-stack web application that converts text prompts into AI-generated images using a visual language model backend (Stable Diffusion).   This project features a React frontend, Flask backend, dark/light mode UI, Docker support, and prompt history tracking.
 
+A lightweight full-stack web application that converts text prompts into AI-generated images using a visual language model backend (Stable Diffusion). This project features a React frontend, Flask backend, dark/light mode UI, Docker support, and prompt history tracking.
+
+---
 
 ## 🌟 Features
 
@@ -13,26 +15,25 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 - 🗂️ Environment-based configuration via `.env`
 - 📝 Persistent prompt logs stored in `history.json`
 
-
+---
 
 ## 📸 Screenshots
 
 | Dark Mode | Light Mode |
 |-----------|------------|
-| 🌙 | ☀|
+| 🌙        | ☀️        |
 
-
+---
 
 ## ⚙️ Technologies Used
 
-| Frontend                    | Backend            | Deployment |
-|----------------------------|--------------------|------------|
-| React (Create React App)   | Flask (Blueprints) | Docker     |
-| CSS Modules (CRA Default)  | Requests, PIL      | `.env` for config |
-| JavaScript (JSX)           | Ngrok + Colab API  | JSON-based caching |
+| Frontend                    | Backend            | Deployment          |
+|----------------------------|--------------------|---------------------|
+| React (Create React App)   | Flask (Blueprints) | Docker              |
+| CSS Modules (CRA Default)  | Requests, PIL      | `.env` for config   |
+| JavaScript (JSX)           | Ngrok + Colab API  | JSON-based caching  |
 
-
-
+---
 
 ## 🏗️ Project Structure
 
@@ -53,11 +54,9 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 ├── frontend/
 │   ├── src/TextToImageApp.jsx
 │   └── ...
-
-
-
 ```
 
+---
 
 ## 🚀 How to Run
 
@@ -68,46 +67,42 @@ A lightweight full-stack web application that converts text prompts into AI-gene
    ```env
    COLAB_URL=https://xxxxx.ngrok.io
    OUTPUT_DIR=static/generated_images
-3. In /backend:
-pip install -r requirements.txt
-python app.py
-4. In /frontend:
-npm install
-npm run build
-5. Open browser: http://127.0.0.1:5000
-
-
-##🐳 Docker Run (Production-Style)
-
-1. Make sure Colab is running and .env exists in /backend
-
-2. In /backend:
-
-docker build -t text2image-backend .
-docker run -p 5000:5000 text2image-backend
-
-3. Open http://127.0.0.1:5000
-
-
-其它几个也一样：
-
-| 错误写法             | 正确写法           |
-|----------------------|--------------------|
-| `##**🧠 Notes**`     | `## 🧠 Notes`       |
-| `##🐳 Docker Run...` | `## 🐳 Docker Run...` |
-| `##**📦 Future...`   | `## 📦 Future...`   |
-| `##**💡 Credits**`   | `## 💡 Credits`     |
+   ```
+3. In `/backend`:
+   ```bash
+   pip install -r requirements.txt
+   python app.py
+   ```
+4. In `/frontend`:
+   ```bash
+   npm install
+   npm run build
+   ```
+5. Open browser: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
-##
+## 🐳 Docker Run (Production-Style)
 
-```markdown
+1. Make sure Colab is running and `.env` exists in `/backend`
+
+2. In `/backend`:
+   ```bash
+   docker build -t text2image-backend .
+   docker run -p 5000:5000 text2image-backend
+   ```
+
+3. Open: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+---
+
 ## 🧠 Notes
 
 - The backend sends prompts to the Colab-based model, receives base64 image, and serves it via Flask.
 - Prompt history is stored in `history.json` on the server.
 - Docker container loads env vars at build time, so `.env` must be present when running `docker build`.
+
+---
 
 ## 📦 Future Improvements
 
@@ -116,10 +111,12 @@ docker run -p 5000:5000 text2image-backend
 - Add more advanced prompt options (style, seed, steps)
 - Responsive mobile UI
 
+---
+
 ## 💡 Credits
 
-Created by jingwen as part of an academic project.  
+Created by **jingwen** as part of an academic project.  
 Model: `runwayml/stable-diffusion-v1-5`  
-Colab backend powered by 🤗 Diffusers + Ngrok + Flask.  
-If you like this, feel free to ⭐️ the repo or connect with me on LinkedIn.
+Colab backend powered by 🤗 Diffusers + Ngrok + Flask.
 
+If you like this, feel free to ⭐️ the repo or connect with me on LinkedIn!
