@@ -27,7 +27,7 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 
 | Frontend | Backend | Deployment |
 |----------|---------|------------|
-| React (Vite) | Flask (Blueprints) | Docker |
+| React (Create React App)| Flask (Blueprints) | Docker |
 | Tailwind-style custom UI | Requests + PIL | Vercel (frontend) |
 | LocalStorage + Fetch | dotenv + json logging | ngrok + Colab (backend) |
 
