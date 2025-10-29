@@ -92,6 +92,7 @@ docker run -p 5000:5000 text2image-backend
 ·Prompt history is stored in history.json on the server.
 
 ·Docker container loads env vars at build time, so .env must be present when running docker build.
+
 ---
 📦 Future Improvements
 
@@ -102,6 +103,7 @@ docker run -p 5000:5000 text2image-backend
  ·Add more advanced prompt options (style, seed, steps)
 
  ·Responsive mobile UI
+ 
 ---
 💡 Credits
 
