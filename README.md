@@ -19,7 +19,7 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 
 | Dark Mode | Light Mode |
 |-----------|------------|
-| ![dark](assets/demo-dark.png) | ![light](assets/demo-light.png) |
+| 🌙 | ☀|
 
 ---
 
