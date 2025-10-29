@@ -77,7 +77,7 @@ npm run build
 5. Open browser: http://127.0.0.1:5000
 
 
-##**🐳 Docker Run (Production-Style)**
+##🐳 Docker Run (Production-Style)
 
 1. Make sure Colab is running and .env exists in /backend
 
