@@ -52,7 +52,7 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 ├── frontend/
 │   ├── src/TextToImageApp.jsx
 │   └── ...
-
+```bash
 ---
 
 
@@ -95,18 +95,19 @@ docker run -p 5000:5000 text2image-backend
 ---
 📦 Future Improvements
 
- Replace Colab with a persistent inference API (e.g. Replicate, Hugging Face Inference API)
+ ·Replace Colab with a persistent inference API (e.g. Replicate, Hugging Face Inference API)
 
- Add user login for personalized history
+ ·Add user login for personalized history
 
- Add more advanced prompt options (style, seed, steps)
+ ·Add more advanced prompt options (style, seed, steps)
 
- Responsive mobile UI
+ ·Responsive mobile UI
 ---
 💡 Credits
 
-Created by [Your Name] as part of an academic project.
+Created by jingwen as part of an academic project.
 Model: runwayml/stable-diffusion-v1-5
 
 Colab backend powered by 🤗 Diffusers + Ngrok + Flask.
 
+If you like this, feel free to ⭐️ the repo or connect with me on LinkedIn
