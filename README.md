@@ -33,6 +33,7 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 
 
 
+
 ## 🏗️ Project Structure
 
 ```bash
@@ -52,6 +53,9 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 ├── frontend/
 │   ├── src/TextToImageApp.jsx
 │   └── ...
+
+
+
 ```
 
 
@@ -73,7 +77,7 @@ npm run build
 5. Open browser: http://127.0.0.1:5000
 
 
-🐳 Docker Run (Production-Style)
+##**🐳 Docker Run (Production-Style)**
 
 1. Make sure Colab is running and .env exists in /backend
 
@@ -84,7 +88,8 @@ docker run -p 5000:5000 text2image-backend
 
 3. Open http://127.0.0.1:5000
 
-🧠 Notes
+
+##**🧠 Notes**
 
 ·The backend sends prompts to the Colab-based model, receives base64 image, and serves it via Flask.
 
@@ -92,7 +97,8 @@ docker run -p 5000:5000 text2image-backend
 
 ·Docker container loads env vars at build time, so .env must be present when running docker build.
 
-📦 Future Improvements
+
+##**📦 Future Improvements**
 
  ·Replace Colab with a persistent inference API (e.g. Replicate, Hugging Face Inference API)
 
@@ -101,8 +107,9 @@ docker run -p 5000:5000 text2image-backend
  ·Add more advanced prompt options (style, seed, steps)
 
  ·Responsive mobile UI
+
  
-💡 Credits
+##**💡 Credits**
 
 Created by jingwen as part of an academic project.
 Model: runwayml/stable-diffusion-v1-5
