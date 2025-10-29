@@ -52,7 +52,7 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 ├── frontend/
 │   ├── src/TextToImageApp.jsx
 │   └── ...
-```bash
+```
 ---
 
 
