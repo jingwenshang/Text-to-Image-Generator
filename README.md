@@ -13,7 +13,7 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 - 🗂️ Environment-based configuration via `.env`
 - 📝 Persistent prompt logs stored in `history.json`
 
----
+
 
 ## 📸 Screenshots
 
@@ -21,7 +21,7 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 |-----------|------------|
 | 🌙 | ☀|
 
----
+
 
 ## ⚙️ Technologies Used
 
@@ -31,7 +31,7 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 | CSS Modules (CRA Default)  | Requests, PIL      | `.env` for config |
 | JavaScript (JSX)           | Ngrok + Colab API  | JSON-based caching |
 
----
+
 
 ## 🏗️ Project Structure
 
@@ -53,7 +53,6 @@ A lightweight full-stack web application that converts text prompts into AI-gene
 │   ├── src/TextToImageApp.jsx
 │   └── ...
 ```
----
 
 
 ## 🚀 How to Run
@@ -73,7 +72,7 @@ npm install
 npm run build
 5. Open browser: http://127.0.0.1:5000
 
----
+
 🐳 Docker Run (Production-Style)
 
 1. Make sure Colab is running and .env exists in /backend
@@ -84,7 +83,7 @@ docker build -t text2image-backend .
 docker run -p 5000:5000 text2image-backend
 
 3. Open http://127.0.0.1:5000
----
+
 🧠 Notes
 
 ·The backend sends prompts to the Colab-based model, receives base64 image, and serves it via Flask.
@@ -93,7 +92,6 @@ docker run -p 5000:5000 text2image-backend
 
 ·Docker container loads env vars at build time, so .env must be present when running docker build.
 
----
 📦 Future Improvements
 
  ·Replace Colab with a persistent inference API (e.g. Replicate, Hugging Face Inference API)
@@ -104,7 +102,6 @@ docker run -p 5000:5000 text2image-backend
 
  ·Responsive mobile UI
  
----
 💡 Credits
 
 Created by jingwen as part of an academic project.
