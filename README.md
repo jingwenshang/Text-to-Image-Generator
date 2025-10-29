@@ -89,31 +89,37 @@ docker run -p 5000:5000 text2image-backend
 3. Open http://127.0.0.1:5000
 
 
-##**🧠 Notes**
+其它几个也一样：
 
-·The backend sends prompts to the Colab-based model, receives base64 image, and serves it via Flask.
+| 错误写法             | 正确写法           |
+|----------------------|--------------------|
+| `##**🧠 Notes**`     | `## 🧠 Notes`       |
+| `##🐳 Docker Run...` | `## 🐳 Docker Run...` |
+| `##**📦 Future...`   | `## 📦 Future...`   |
+| `##**💡 Credits**`   | `## 💡 Credits`     |
 
-·Prompt history is stored in history.json on the server.
+---
 
-·Docker container loads env vars at build time, so .env must be present when running docker build.
+##
 
+```markdown
+## 🧠 Notes
 
-##**📦 Future Improvements**
+- The backend sends prompts to the Colab-based model, receives base64 image, and serves it via Flask.
+- Prompt history is stored in `history.json` on the server.
+- Docker container loads env vars at build time, so `.env` must be present when running `docker build`.
 
- ·Replace Colab with a persistent inference API (e.g. Replicate, Hugging Face Inference API)
+## 📦 Future Improvements
 
- ·Add user login for personalized history
+- Replace Colab with a persistent inference API (e.g. Replicate, Hugging Face Inference API)
+- Add user login for personalized history
+- Add more advanced prompt options (style, seed, steps)
+- Responsive mobile UI
 
- ·Add more advanced prompt options (style, seed, steps)
+## 💡 Credits
 
- ·Responsive mobile UI
+Created by jingwen as part of an academic project.  
+Model: `runwayml/stable-diffusion-v1-5`  
+Colab backend powered by 🤗 Diffusers + Ngrok + Flask.  
+If you like this, feel free to ⭐️ the repo or connect with me on LinkedIn.
 
- 
-##**💡 Credits**
-
-Created by jingwen as part of an academic project.
-Model: runwayml/stable-diffusion-v1-5
-
-Colab backend powered by 🤗 Diffusers + Ngrok + Flask.
-
-If you like this, feel free to ⭐️ the repo or connect with me on LinkedIn
