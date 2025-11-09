@@ -23,7 +23,6 @@ A full-stack AI-powered application that generates images from text prompts usin
 <img width="2560" height="934" alt="image" src="https://github.com/user-attachments/assets/45c46f8f-cf58-49a4-a96e-63c9474c83fa" />
 
 <img width="2560" height="1229" alt="image" src="https://github.com/user-attachments/assets/1566b55d-28ed-44c0-9dff-883b5b557329" />
-<img width="2560" height="1229" alt="image" src="https://github.com/user-attachments/assets/e86898f3-d7f2-41f6-a5af-015924a65c93" />
 <img width="2560" height="923" alt="image" src="https://github.com/user-attachments/assets/bc94303c-773e-44df-8698-77f303e98625" />
 
 
@@ -112,8 +111,7 @@ OUTPUT_DIR=static/generated_images
 
 | Dark Mode                     | Light Mode                      |
 | ----------------------------- | ------------------------------- |
-| ![dark](screenshots/dark.png) |<img width="2559" height="1230" alt="image" src="https://github.com/user-attachments/assets/3ef183fb-3c08-42a2-9ebc-226df9e803c1" />
-|
+|<img width="2560" height="1229" alt="image" src="https://github.com/user-attachments/assets/1566b55d-28ed-44c0-9dff-883b5b557329" />|<img width="2559" height="1230" alt="image" src="https://github.com/user-attachments/assets/3ef183fb-3c08-42a2-9ebc-226df9e803c1" />|
 
 ---
 
