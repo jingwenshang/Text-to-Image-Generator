@@ -24,8 +24,11 @@ A full-stack AI-powered application that generates images from text prompts usin
 
 <img width="2560" height="1229" alt="image" src="https://github.com/user-attachments/assets/1566b55d-28ed-44c0-9dff-883b5b557329" />
 <img width="2560" height="923" alt="image" src="https://github.com/user-attachments/assets/bc94303c-773e-44df-8698-77f303e98625" />
+<img width="2560" height="1272" alt="image" src="https://github.com/user-attachments/assets/987fb471-5886-4438-9e96-8bcd2d796964" />
+<img width="2560" height="1220" alt="image" src="https://github.com/user-attachments/assets/c6e9ec27-5522-4744-88c5-d8339ba791a1" />
 
 
+---
 ## 🗂️ Project Structure
 
 ```
@@ -160,5 +163,6 @@ PRs and suggestions welcome!
 * [ngrok](https://ngrok.com/) for tunnel
 
 ---
+## 👤 Author
 
-> Created by [@jingwenshang](https://github.com/jingwenshang)
+Jingwen Shang
