@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend/static/generated_images:/app/static/generated_images
+      - ./backend/history.json:/app/history.json
+      - ./backend/.env:/app/.env
+    env_file:
+      - ./backend/.env
+
+  frontend:
+    image: node:18-alpine
+    working_dir: /app
+    volumes:
+      - ./text2image-frontend/build:/app
+    command: npx serve -s .
+    ports:
+      - "3000:3000"
